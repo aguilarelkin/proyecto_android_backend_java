@@ -13,11 +13,10 @@ jobs:
     steps:
       - uses: samin/mysql-action@v1
         with:
-          host port: 3306
           mysql database: 'employannex'
-          mysql root password: root
-          mysql user: root
-          mysql password: root
+          mysql root password: 'root'
+          mysql user: 'root'
+          mysql password: 'root'
       - uses: actions/checkout@v3
       - name: set up JDK 17
         uses: actions/setup-java@v3
