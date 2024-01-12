@@ -1,6 +1,6 @@
 # API RESTFUL FOR MÓVIL AND WEB
 
-_API RESTFull desarrollada para Android y también funciona para aplicaciones WEB, se desarrolló con Spring Framework con sus diferentes tecnologías que ofrece además, se implementó Spring Security y JWT para proteger rutas_
+_API RESTFull desarrollada para Android y también funciona para aplicaciones WEB, se desarrolló con Spring Framework aplicando sus diferentes tecnologías que ofrece, además, se implementó Spring Security y JWT para proteger las rutas_
 
 ### Pre-requisitos 📋
 
@@ -8,7 +8,6 @@ _API RESTFull desarrollada para Android y también funciona para aplicaciones WE
 maven
 java
 mysql
-spiring framework
 ```
 
 ### Instalación 🔧
@@ -22,19 +21,25 @@ _Ejecutar comando_
 
 ## Ejecutando las pruebas ⚙️
 
-_Ejecutar comando mvn spring-boot:run_
-
-### Analice las pruebas end-to-end 🔩
+_Ejecutar comando_
 
 ```
-Se diseño pruebas para básicas para verifcar controladores y servicios
+mvn spring-boot:run_
+```
+
+### Testing 🔩
+
+```
+Se realizó testing para verificar controladores y servicios
 ```
 
 
 ## Construido con 🛠️
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
+```
+* Spring
+* Maven
+* JWT
+* JUnit 5
+```
 
